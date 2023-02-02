@@ -1,0 +1,97 @@
+<style>
+    .navigation-button {
+        color: black;
+        background-color: rgb(230, 229, 229);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 3px;
+        border-color:rgb(190, 188, 188);
+        padding: 10px 12px;
+    }
+    .navigation-button:hover {
+        background-color: rgb(190, 188, 188);
+    }
+    .pagination-item-button {
+        border: none;
+        color: black;
+        background-color: white;
+        border-radius: 3px;
+        padding: 12px 14px;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .pagination-item-button:hover {
+        background-color: rgb(184, 234, 184);
+    }
+    .stretch-button {
+        color: white;
+        background-color: green;
+        margin: 40px 50px;
+        padding: 12px 20px;
+        transition-duration: 1s;
+        border: none;
+    }
+    .stretch-button:hover {
+        padding: 24px 40px;
+    }
+    .volumetric-click-button {
+        background-color: green;
+        color: white;
+        padding: 12px 20px;
+        margin: 40px 40px;
+        box-shadow: 10px 10px 10px black;
+        cursor: pointer;
+        transition-duration: 0.1s;
+        border:none;
+    }
+    .volumetric-click-button:active {
+        margin: 50px 50px;
+        box-shadow:none;
+    }
+    .expanding-button {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        margin-left: 10px;
+        margin-right: 10px;
+
+        background-color: green;
+        color:white;
+        cursor: pointer;
+        border:none;
+        transition: padding 0.15s,
+         margin 0.15s;
+    }
+    .expanding-button:hover {
+        padding-left: 25px;
+        padding-right: 25px;
+
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+</style>
+
+<!-- pagination task -->
+<button class="navigation-button">Back</button>
+<button class="pagination-item-button"> 1 </button>
+<button class="pagination-item-button"> 2 </button>
+<button class="pagination-item-button"> 3 </button>
+<button class="pagination-item-button"> 4 </button>
+<button class="pagination-item-button"> 5 </button>
+<button class="navigation-button">Next</button>
+<br>
+
+<!-- stretch task -->
+<button class="stretch-button"> Stretch </button>
+<br>
+
+<!-- volumetric click task -->
+<button class="volumetric-click-button">Shadow</button>
+<br>
+
+<!-- expanding buttons task -->
+<button class="expanding-button">One</button>
+<button class="expanding-button">Two</button>
+<button class="expanding-button">Three</button> 

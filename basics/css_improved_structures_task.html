@@ -1,0 +1,57 @@
+<style>
+    .pagination {
+        display: inline-block;
+    }
+    .pagination a {
+        float: left;
+        /* top and bottom | left and right */
+        padding: 8px 16px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .pagination_colored {
+        margin-top: 15px;
+        display: inline-block;
+    }
+    .pagination_colored a {
+        float: left;
+        /* top and bottom | left and right */
+        padding: 9px 16px;
+        color: black;
+        text-decoration: none;
+        transition: background-color 0.15s;
+    }
+    .pagination_colored a:hover {
+        border-radius: 5px;
+        background-color: rgb(199, 199, 199);
+    }
+    .pagination_colored a:active {
+        border-radius: 5px;
+        background-color: rgb(114, 207, 114);
+    }
+</style>
+
+<div class="pagination">
+    <a href="#">&laquo;</a>
+    <a href="#"> 1 </a>
+    <a href="#"> 2 </a>
+    <a href="#"> 3 </a>
+    <a href="#"> 4 </a>
+    <a href="#"> 5 </a>
+    <a href="#"> 6 </a>
+    <a href="#">&#187;</a>
+</div>
+
+<br>
+
+<div class="pagination_colored">
+    <a href="#">&laquo;</a>
+    <a href="#"> 1 </a>
+    <a href="#"> 2 </a>
+    <a href="#"> 3 </a>
+    <a href="#"> 4 </a>
+    <a href="#"> 5 </a>
+    <a href="#"> 6 </a>
+    <a href="#">&#187;</a>
+</div>
